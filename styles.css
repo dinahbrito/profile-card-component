@@ -16,6 +16,11 @@
 body {
     align-items: center;
     background-color: #19A1AE;
+    background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+    background-position: 
+        left -678px top -678px,
+        right -678px bottom -678px;
+    background-repeat: no-repeat;
     display: flex;
     font-family: 'Kumbh Sans', sans-serif;
     height: 100vh;
@@ -26,15 +31,18 @@ body {
 /*------------
   Typography 
   ------------*/
+
 h1, b {
     color: #2E3349;
     font-size: 1.125rem;
     font-weight: 700;
     line-height: 1.131rem;
+    margin-bottom: .80rem;
 }
 
 h1 span, p {
     color: #6B7082;
+    font-weight: 400;
 }
 
 p {
@@ -48,3 +56,46 @@ p {
     letter-spacing: .094rem;
     line-height: .63rem;
 }
+
+/*--------
+   Layout
+  --------*/
+
+.card {
+    background-color: #FFFFFF;
+    border-radius: .94rem;
+    box-shadow: 0px 50px 100px -20px rgba(8, 70, 94, 0.504835);
+    height: 23.375rem;
+    overflow: hidden;
+    width: 20.375rem;
+}
+
+.img-top {
+    background-image: url(./images/bg-pattern-card.svg);
+    height: 8.75rem;
+}
+
+.body {
+    border-bottom: 1px solid #E8E9EC;
+    height: 9.06rem;
+}
+
+.body img {
+    border: 5px solid #FFFFFF;
+    border-radius: 50%;
+    margin-top: -3.25rem;
+    margin-bottom: .74rem;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-around;
+    margin: 24px 0;
+}
+
+/* target only the numbers */
+.col p:first-child{
+    margin-bottom: 9px;
+}
+
+/* width: 21.875rem; */
