@@ -15,6 +15,7 @@
 
 body {
     align-items: center;
+    background-attachment: fixed;
     background-color: #19A1AE;
     background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
     background-position: 
@@ -98,4 +99,19 @@ p {
     margin-bottom: 9px;
 }
 
-/* width: 21.875rem; */
+/*----------------
+   Large Screens
+  ----------------*/
+
+@media only screen and (min-width: 768px){
+    body {
+        background-position: 
+            left -278px top -528px,
+            right -278px bottom -528px;
+    }
+
+    .card {
+        width: 21.875rem;
+    }
+
+}
