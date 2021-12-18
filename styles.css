@@ -85,7 +85,7 @@ p {
     border: 5px solid #FFFFFF;
     border-radius: 50%;
     margin-top: -3.25rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.2rem;
 }
 
 .bottom {
@@ -96,7 +96,7 @@ p {
 
 /* target only the numbers */
 .col p:first-child{
-    margin-top: 5px;
+    margin-top: 3px;
     margin-bottom: 9px;
 }
 
