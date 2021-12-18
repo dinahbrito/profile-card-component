@@ -7,7 +7,7 @@ The challenge is to build out this profile card component and get it looking as 
 
 ## Solution Link
 
-- Live Site URL: [https://dinahbrito.github.io/intro-component-signup-form/](https://dinahbrito.github.io/intro-component-signup-form/)
+- Live Site URL: [https://dinahbrito.github.io/profile-card-component/](https://dinahbrito.github.io/profile-card-component/)
 
 ## Built With
 
